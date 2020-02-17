@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>me.snowdrop</groupId>
+  <groupId>dev.snowdrop</groupId>
   <artifactId>quarkus-spring-di-api</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>5.1.Alpha1</version>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <properties>
     <spring-boot-bom.version>2.1.12.Final</spring-boot-bom.version>
